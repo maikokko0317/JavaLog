@@ -14,8 +14,13 @@ public class MainActivity extends AppCompatActivity {
         Dog dog = new Dog("ポチ", 3);
         dog.move();
 
-        Human human = new Human("まいこ", 33);
-        human.think();
+        Human human1 = new Human("まいこ", 33, "海外旅行");
+        human1.say();
+        human1.think();
+
+        Human human2 = new Human("maiko", 3, "お菓子");
+        human2.say();
+        human2.think();
         /*
         dog.say();
         Log.d("javatest","犬の名前は" + dog.name + "です。");
